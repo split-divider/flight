@@ -42,7 +42,7 @@ import static songbox.house.util.Constants.APP_NAME;
 @FieldDefaults(makeFinal = true, level = AccessLevel.PRIVATE)
 public class GoogleAuthenticationServiceImpl implements GoogleAuthenticationService {
     // TODO
-    public static final String REDIRECT_DOMAIN = "http://localhost:8080";
+    public static final String REDIRECT_DOMAIN = "http://songboxhouse.space:8080";
 
     private static final String YOUTUBE_TOKEN_URL = "/api/google/token";
     private static final List<String> SCOPES = Lists.newArrayList("https://www.googleapis.com/auth/youtube",
